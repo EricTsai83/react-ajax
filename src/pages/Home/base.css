@@ -120,32 +120,9 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-  /* Styles for screens smaller than 500px */
-  .box-container-1 {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    width: 100%;
-  }
-
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    width: 80%;
-  }
-
-  .box-container-2 {
-    flex-direction: column;
-    align-content: center;
-    width: 100%;
-  }
-
-  .box5,
-  .box6,
-  .box7,
-  .box8 {
-    width: 80%;
+@media (min-width: 900px) {
+  /* Styles for screens smaller than 900px */
+  .repo-result {
+    width: 900px;
   }
 }
